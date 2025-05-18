@@ -1,10 +1,10 @@
 /* Estilos Generales */
 :root {
-    --primary: #00fffc;
-    --secondary: #ff00ff;
-    --dark: #0a0a12;
-    --dark-blue: #1a1a2e;
-    --light: #e0e0e0;
+    --primary: #ff0000; /* Rojo */
+    --secondary: #ffffff; /* Blanco */
+    --dark: #000000; /* Negro */
+    --dark-blue: #1a1a1a; /* Negro más claro */
+    --light: #ffffff; /* Blanco */
 }
 
 * {
@@ -22,7 +22,7 @@ body {
 
 /* Navbar */
 .navbar {
-    background: linear-gradient(90deg, var(--dark-blue), #16213e);
+    background: linear-gradient(90deg, var(--dark-blue), #000000);
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -154,12 +154,12 @@ body {
     overflow: hidden;
     transition: transform 0.3s;
     padding: 1.5rem;
-    border: 1px solid rgba(0, 255, 252, 0.2);
+    border: 1px solid rgba(255, 0, 0, 0.2);
 }
 
 .product-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 255, 252, 0.1);
+    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.1);
 }
 
 .product-card img {
@@ -339,7 +339,7 @@ footer {
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
-    border-top: 1px solid rgba(0, 255, 252, 0.2);
+    border-top: 1px solid rgba(255, 0, 0, 0.2);
 }
 
 /* Responsive */
@@ -389,16 +389,16 @@ footer {
 
 /* Tarjeta de producto */
 .producto-card {
-    background: #1e1e2e;
+    background: #1e1e1e;
     border-radius: 10px;
     overflow: hidden;
-    border: 1px solid #00fffc;
+    border: 1px solid #ff0000;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .producto-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 255, 252, 0.1);
+    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.1);
 }
 
 /* Imagen del producto */
@@ -420,7 +420,7 @@ footer {
 }
 
 .producto-precio {
-    color: #00fffc;
+    color: #ff0000;
     font-size: 1.2rem;
     font-weight: bold;
     margin: 1rem 0;
@@ -429,8 +429,8 @@ footer {
 /* Botón */
 .btn-add {
     background: transparent;
-    color: #00fffc;
-    border: 2px solid #00fffc;
+    color: #ff0000;
+    border: 2px solid #ff0000;
     padding: 0.5rem 1rem;
     width: 100%;
     border-radius: 5px;
@@ -439,8 +439,8 @@ footer {
 }
 
 .btn-add:hover {
-    background: #00fffc;
-    color: #1e1e2e;
+    background: #ff0000;
+    color: #1e1e1e;
 }
 
 /* Estilos del carrito */
@@ -459,7 +459,7 @@ footer {
     gap: 1rem;
     align-items: center;
     padding: 1rem;
-    background: #1e1e2e;
+    background: #1e1e1e;
     border-radius: 8px;
     margin-bottom: 1rem;
 }
@@ -474,12 +474,12 @@ footer {
 .total-carrito {
     text-align: right;
     padding: 1rem;
-    border-top: 2px solid #00fffc;
+    border-top: 2px solid #ff0000;
 }
 
 .btn-comprar {
-    background: #00fffc;
-    color: #1e1e2e;
+    background: #ff0000;
+    color: #1e1e1e;
     padding: 0.8rem 2rem;
     border: none;
     border-radius: 5px;
@@ -497,12 +497,12 @@ footer {
 .tabla-carrito th, .tabla-carrito td {
     padding: 12px;
     text-align: left;
-    border-bottom: 1px solid #00fffc;
+    border-bottom: 1px solid #ff0000;
 }
 
 .tabla-carrito th {
-    background-color: #1a1a2e;
-    color: #00fffc;
+    background-color: #1a1a1a;
+    color: #ff0000;
 }
 
 .cantidad-container {
@@ -513,8 +513,8 @@ footer {
 
 .btn-cantidad {
     background: transparent;
-    color: #00fffc;
-    border: 1px solid #00fffc;
+    color: #ff0000;
+    border: 1px solid #ff0000;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -526,20 +526,20 @@ footer {
 }
 
 .btn-cantidad:hover {
-    background: #00fffc;
-    color: #1a1a2e;
+    background: #ff0000;
+    color: #1a1a1a;
 }
 
 .total-section {
     text-align: right;
     margin-top: 2rem;
     padding-top: 1rem;
-    border-top: 2px solid #00fffc;
+    border-top: 2px solid #ff0000;
 }
 
 .btn-comprar {
-    background: #00fffc;
-    color: #1a1a2e;
+    background: #ff0000;
+    color: #1a1a1a;
     padding: 0.8rem 2rem;
     border: none;
     border-radius: 5px;
@@ -562,13 +562,13 @@ footer {
     padding: 2rem;
     max-width: 600px;
     margin: 2rem auto;
-    background: #1e1e2e;
+    background: #1e1e1e;
     border-radius: 10px;
-    border: 1px solid #00fffc;
+    border: 1px solid #ff0000;
 }
 
 .compra-exitosa h1 {
-    color: #00fffc;
+    color: #ff0000;
 }
 
 /* Contenedor principal */
@@ -580,7 +580,7 @@ footer {
 }
 
 .titulo-carrito {
-    color: #00fffc;
+    color: #ff0000;
     text-align: center;
     margin-bottom: 2rem;
     font-size: 2.5rem;
@@ -589,23 +589,23 @@ footer {
 /* Tabla */
 .contenedor-tabla {
     overflow-x: auto;
-    background: #1a1a2e;
+    background: #1a1a1a;
     border-radius: 10px;
     padding: 1rem;
-    box-shadow: 0 0 20px rgba(0, 255, 252, 0.1);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.1);
 }
 
 .tabla-carrito {
     width: 100%;
     border-collapse: collapse;
-    color: #e0e0e0;
+    color: #ffffff;
 }
 
 .tabla-carrito th {
     padding: 1rem;
     text-align: left;
-    background: #0a0a12;
-    color: #00fffc;
+    background: #0a0a0a;
+    color: #ff0000;
     font-weight: 600;
     text-transform: uppercase;
     font-size: 0.9rem;
@@ -614,7 +614,7 @@ footer {
 
 .tabla-carrito td {
     padding: 1.5rem 1rem;
-    border-bottom: 1px solid #252540;
+    border-bottom: 1px solid #252525;
 }
 
 /* Columnas específicas */
@@ -635,7 +635,7 @@ footer {
     object-fit: cover;
     border-radius: 5px;
     margin-right: 1rem;
-    border: 1px solid #00fffc;
+    border: 1px solid #ff0000;
 }
 
 .nombre-producto {
@@ -647,7 +647,7 @@ footer {
 }
 
 .celda-subtotal {
-    color: #00fffc;
+    color: #ff0000;
 }
 
 /* Contador de cantidad */
@@ -659,8 +659,8 @@ footer {
 
 .btn-cantidad {
     background: transparent;
-    color: #00fffc;
-    border: 1px solid #00fffc;
+    color: #ff0000;
+    border: 1px solid #ff0000;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -674,8 +674,8 @@ footer {
 }
 
 .btn-cantidad:hover {
-    background: #00fffc;
-    color: #1a1a2e;
+    background: #ff0000;
+    color: #1a1a1a;
 }
 
 .numero-cantidad {
@@ -689,10 +689,10 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #1a1a2e;
+    background: #1a1a1a;
     padding: 1.5rem;
     border-radius: 10px;
-    border: 1px solid #00fffc;
+    border: 1px solid #ff0000;
 }
 
 .total-container {
@@ -709,12 +709,12 @@ footer {
 .monto-total {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #00fffc;
+    color: #ff0000;
 }
 
 .btn-finalizar {
-    background: #00fffc;
-    color: #0a0a12;
+    background: #ff0000;
+    color: #0a0a0a;
     padding: 0.8rem 2rem;
     border-radius: 5px;
     font-weight: 600;
@@ -727,7 +727,7 @@ footer {
 
 .btn-finalizar:hover {
     transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(0, 255, 252, 0.4);
+    box-shadow: 0 5px 15px rgba(255, 0, 0, 0.4);
 }
 
 /* Carrito vacío */
@@ -739,7 +739,7 @@ footer {
 
 .carrito-vacio i {
     font-size: 3rem;
-    color: #00fffc;
+    color: #ff0000;
     margin-bottom: 1rem;
 }
 
@@ -750,8 +750,8 @@ footer {
 
 .btn-seguir-comprando {
     background: transparent;
-    color: #00fffc;
-    border: 2px solid #00fffc;
+    color: #ff0000;
+    border: 2px solid #ff0000;
     padding: 0.8rem 2rem;
     border-radius: 5px;
     text-decoration: none;
@@ -760,7 +760,7 @@ footer {
 }
 
 .btn-seguir-comprando:hover {
-    background: rgba(0, 255, 252, 0.1);
+    background: rgba(255, 0, 0, 0.1);
 }
 
 /* Responsive */
@@ -786,17 +786,17 @@ footer {
 }
 
 .auth-card {
-    background: #1a1a2e;
-    border: 1px solid #00fffc;
+    background: #1a1a1a;
+    border: 1px solid #ff0000;
     border-radius: 10px;
     padding: 2.5rem;
     width: 100%;
     max-width: 500px;
-    box-shadow: 0 0 30px rgba(0, 255, 252, 0.2);
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.2);
 }
 
 .auth-card h2 {
-    color: #00fffc;
+    color: #ff0000;
     text-align: center;
     margin-bottom: 2rem;
     font-size: 1.8rem;
@@ -825,12 +825,12 @@ footer {
 
 .form-group label i {
     width: 20px;
-    color: #00fffc;
+    color: #ff0000;
 }
 
 .form-group input {
-    background: #0a0a12;
-    border: 1px solid #252540;
+    background: #0a0a0a;
+    border: 1px solid #252525;
     border-radius: 5px;
     padding: 0.8rem 1rem;
     color: white;
@@ -840,12 +840,12 @@ footer {
 
 .form-group input:focus {
     outline: none;
-    border-color: #00fffc;
+    border-color: #ff0000;
 }
 
 .btn-auth {
-    background: #00fffc;
-    color: #0a0a12;
+    background: #ff0000;
+    color: #0a0a0a;
     border: none;
     border-radius: 5px;
     padding: 1rem;
@@ -880,7 +880,7 @@ footer {
 }
 
 .auth-links a:hover {
-    color: #00fffc;
+    color: #ff0000;
 }
 
 /* Mensajes de error */
